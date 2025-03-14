@@ -1,8 +1,7 @@
-//exercício 01
+//1. Soma de Dois Números
+//Escreva um programa que solicite ao usuário dois números inteiros e exiba a soma deles.
 
 import java.util.Scanner;
-
-public class exercicio01 {
 
 	public static void main(String[] args) {
 		
@@ -24,9 +23,33 @@ public class exercicio01 {
 	}
  
 
+//2. Área de um Círculo
+//Desenvolva um programa que leia o raio de um círculo e calcule sua área.
+
+import java.util.Scanner;
+
+public class exercicio01 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int raio;
+		double area;
+		
+		System.out.println("Digite o valor do raio");
+		raio = sc.nextInt();
+		
+		area = 3.14159 * (raio * raio);
+		
+		System.out.println("O valor da area é: "+ area);
+		
+		
+		
+		sc.close();
 	}
 
 }
 
-//exercício 02
+
   
